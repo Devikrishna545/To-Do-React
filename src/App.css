@@ -85,3 +85,29 @@ h2 {
   font-style: normal;
   color: grey;
 }
+
+.app .sideHeadingRight {
+  position: absolute;
+  top: 40%;  
+  left: 200%;
+  transform: translate(-10%, -10%);  
+}
+
+.app .sideHeadingRight h2{
+  color: white; 
+  text-justify: inter-word;
+  white-space: nowrap;
+}
+
+.app .sideHeadingLeft{
+  position: absolute;
+  top: 40%;  
+  right: 200%;
+  transform: translate(-10%, -10%); 
+}
+
+.app .sideHeadingLeft h2{
+   color: white; 
+  text-justify: inter-word;
+  white-space: nowrap;
+}
